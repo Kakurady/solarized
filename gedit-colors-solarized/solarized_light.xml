@@ -31,8 +31,8 @@
   <style name="draw-spaces"                 foreground="base01"/>
 
   <!-- Bracket Matching -->
-  <style name="bracket-match"               foreground="red" background="base01" bold="true"/>
-  <style name="bracket-mismatch"            foreground="red" background="base01" underline="true"/>
+  <style name="bracket-match"               background="base01" bold="true"/>
+  <style name="bracket-mismatch"            background="base01" underline="true"/>
 
   <!-- Right Margin -->
   <style name="right-margin"                background="base01"/>
@@ -66,11 +66,19 @@
   <style name="def:error"                   foreground="red" bold="true"/>
   <style name="def:note"                    foreground="magenta" bold="true"/>
   <style name="def:underlined"              foreground="violet"/>
+  <style name="Others"                      bold="true"/>
+  <style name="Others 2"                    foreground="base01" bold="true"/>
+  <style name="Others 3"                    foreground="violet" bold="true"/>
+
 
   <!-- Language specific -->
-  <style name="diff:added-line"             foreground="base03" background="green"/>
-  <style name="diff:removed-line"           foreground="base03" background="red"/>
-  <style name="diff:changed-line"           foreground="base03" background="yellow"/>
+  <style name="diff:added-line"           foreground="cyan"	/>
+  <style name="diff:changed-line"         foreground="yellow"	/>
+  <style name="diff:removed-line"         foreground="orange"	/>
+  <style name="diff:special-case"         foreground="magneta"/>	
+  <style name="diff:location"             foreground="blue"	/>
+  <style name="diff:diff-file"            foreground="base1"  bold="true"/>
+	
 
 </style-scheme>
 
